@@ -1,5 +1,11 @@
 # jupyterhub-test
 
+## Requirements
+
+- [VirtualBox](https://www.virtualbox.org/)
+- [Vagrant](https://www.vagrantup.com/)
+- [vagrant-itamae](https://github.com/chiastolite/vagrant-itamae)
+
 ## Setup
 
 ```
