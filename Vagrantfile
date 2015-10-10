@@ -3,11 +3,7 @@ Vagrant.configure("2") do |config|
   config.vm.network 'private_network', ip: '172.16.0.2'
   config.vm.provision :itamae do |itamae_config|
     itamae_config.sudo = true
-    itamae_config.recipes = %w[
-      ./itamae/update.rb
-      ./itamae/docker.rb
-      ./itamae/jupyterhub.rb
-    ]
+    itamae_config.recipes = 'itamae.rb'
   end
 end
 
