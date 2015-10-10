@@ -5,6 +5,7 @@ Vagrant.configure("2") do |config|
     itamae_config.sudo = true
     itamae_config.recipes = %w[
       ./itamae/update.rb
+      ./itamae/docker.rb
       ./itamae/jupyterhub.rb
     ]
   end
