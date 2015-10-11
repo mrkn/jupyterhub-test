@@ -11,6 +11,7 @@
 
 ```
 $ vagrant up
+$ vagrant reload --provision
 ```
 
 ## Launch JupyterHub
